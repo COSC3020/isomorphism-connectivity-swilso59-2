@@ -11,7 +11,7 @@ one-to-one and onto function (bijection) $f: V_1 \rightarrow V_2$ such that $(u,
 \in E_1$ iff $(f(u),f(v)) \in E_2$.
 
 ## Answer 
-
+Example:
 - Based on the definition of isomorphism this means that the structure of the edges and non-edges is mainstained under the maping of $f$.
 - In order to prove this we can use a proof by contradiction.
 - $G_{1}$ has vertices $A, B, C$ and one edge $(A, B)$.
@@ -24,7 +24,7 @@ one-to-one and onto function (bijection) $f: V_1 \rightarrow V_2$ such that $(u,
 - from here we can see that all edges and non-edges in $G_{1}$ maintain the structue when mapped to the edges and non-edges in $G_{2}$.
 - This satisfies the isomorphism condition.
 
-
+Counter-example:
 - If we have two graphs $H_{1}$ and $H_{2}$.
   - $H_{1}$ has 3 vertices $(A, B, C)$ and one edge $(A, B)$.
   - $H_{2}$ has 3 vertices $(1, 2, 3, 4)$ and two edges $(1, 2)$ and $(3,4)$.
