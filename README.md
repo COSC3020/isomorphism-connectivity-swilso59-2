@@ -19,7 +19,7 @@ Example:
 - Neither $G_{1}$ or $G_{2}$ are completely connected.
 - If we have a function $f: V_{1} \rightarrow V_{2}$. That maps the vertices and edges form $G_{1}$ to $G_{2}$ such as $f(A) = 1, f(B) = 2, f(C) = 3$.
 - We can look at the correcsponding nodes and edges to check if the to determine if the graph holds the same structure.
-- In $G_{1}, (A, B) \in E_{1}$. $f$ maps to $f(A), f(B) = (1 , 2) \in E_{2}$.
+- In $G_{1}, (A, B) \in E_{1}$. $f$ maps to $f(A), f(B) = (1, 2) \in E_{2}$.
   - The non-edge in $G_{1}$, between $A$ and $C$. Maps to no edge between $f(A) = 1, f(C) = 3$ in $G_{2}$.
 - from here we can see that all edges and non-edges in $G_{1}$ maintain the structue when mapped to the edges and non-edges in $G_{2}$.
 - This satisfies the isomorphism condition.
@@ -36,4 +36,9 @@ Counter-example:
   - There are more vertices in $H_{2}$ than in $H_{1}$. This makes it impossible for every vertex in $H_{2}$ to be mapped to by a vertex in $H_{1}$.
   - If you assign $A, B, C$ to multiple vertices you will break the one-to-one condition as well.
  
-For this assignment I reviewed the repository from https://github.com/COSC3020/isomorphism-connectivity-DJReflexive this gave me the idea for providing a counter example. 
+For this assignment I reviewed the repository from https://github.com/COSC3020/isomorphism-connectivity-Dhruv8806 and https://github.com/COSC3020/isomorphism-connectivity-DJReflexive. This is where I got the idea to providing a counter example from. 
+
+“I certify that I have listed all sources used to complete this exercise, including the use
+of any Large Language Models. All of the work is my own, except where stated
+otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is
+suspected, charges may be filed against me without prior notice.”
