@@ -34,7 +34,7 @@ Counter-example:
 - There is no vertex in $H_{1}$ that can correspond to 4 in $H_{2}$.
 - This violates the bijection requirement.
   - There are more vertices in $H_{2}$ than in $H_{1}$. This makes it impossible for every vertex in $H_{2}$ to be mapped to by a vertex in $H_{1}$.
-  - If you assign $A, B, C$ to multiple vertices you will break the one-to-one condition as well.
+  - If you assign $A, B, C$ to multiple vertices you will break the one-to-one condition.
  
 For this assignment I reviewed the repository from https://github.com/COSC3020/isomorphism-connectivity-Dhruv8806 and https://github.com/COSC3020/isomorphism-connectivity-DJReflexive. This is where I got the idea to providing a counter example from. 
 
