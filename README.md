@@ -13,7 +13,7 @@ one-to-one and onto function (bijection) $f: V_1 \rightarrow V_2$ such that $(u,
 ## Answer 
 Example:
 - Based on the definition of isomorphism this means that the structure of the edges and non-edges is mainstained under the maping of $f$.
-- In order to prove this we can use a proof by contradiction.
+- In order to prove this we can use a direct proof by explicitly verifying the conditions for isomorphism.
 - $G_{1}$ has vertices $A, B, C$ and one edge $(A, B)$.
 - $G_{2}$ has vertices $1, 2, 3$ and one edge $(1, 2)$.
 - Neither $G_{1}$ or $G_{2}$ are completely connected.
