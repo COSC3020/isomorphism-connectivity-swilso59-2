@@ -23,20 +23,8 @@ Example:
   - The non-edge in $G_{1}$, between $A$ and $C$. Maps to no edge between $f(A) = 1, f(C) = 3$ in $G_{2}$.
 - from here we can see that all edges and non-edges in $G_{1}$ maintain the structue when mapped to the edges and non-edges in $G_{2}$.
 - This satisfies the isomorphism condition.
-
-Counter-example:
-- If we have two graphs $H_{1}$ and $H_{2}$.
-  - $H_{1}$ has 3 vertices $(A, B, C)$ and one edge $(A, B)$.
-  - $H_{2}$ has 3 vertices $(1, 2, 3, 4)$ and two edges $(1, 2)$ and $(3,4)$.
-- $H_{1}$ has 3 vertices $(A, B, C)$.
-- $H_{2}$ has 4 vertices $(1, 2, 3, 4)$.
-- There is no one-to-one and onto mapping between $H_{1}$ and $H_{2}$.
-- There is no vertex in $H_{1}$ that can correspond to 4 in $H_{2}$.
-- This violates the bijection requirement.
-  - There are more vertices in $H_{2}$ than in $H_{1}$. This makes it impossible for every vertex in $H_{2}$ to be mapped to by a vertex in $H_{1}$.
-  - If you assign $A, B, C$ to multiple vertices you will break the one-to-one condition.
  
-For this assignment I reviewed the repository from https://github.com/COSC3020/isomorphism-connectivity-Dhruv8806 and https://github.com/COSC3020/isomorphism-connectivity-DJReflexive. This is where I got the idea to providing a counter example from. 
+For this assignment I reviewed the repository from https://github.com/COSC3020/isomorphism-connectivity-Dhruv8806 and https://github.com/COSC3020/isomorphism-connectivity-DJReflexive. 
 
 “I certify that I have listed all sources used to complete this exercise, including the use
 of any Large Language Models. All of the work is my own, except where stated
